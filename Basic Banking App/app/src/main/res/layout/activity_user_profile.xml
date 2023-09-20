@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".user_profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/black"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/back3"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_arrow_back_24"></ImageView>
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="36dp"
+            android:paddingStart="10dp"
+            android:text="Profile"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:elevation="200dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="#FEFEFE"
+        app:cardCornerRadius="20dp"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imgprofile"
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ashika" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/custname"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cardView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Name : "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/actualname"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cardView"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center|left"
+        android:text="textview"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/accountno"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/custname"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|right"
+        android:text="Account No : "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/actualno"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/actualname"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|start"
+        android:paddingStart="5dp"
+        android:text="textview"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/accountno"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|right"
+        android:text="Balance : "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/actualamt"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/actualno"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|left"
+        android:text="textview"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/transaction"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actualamt"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/rectanglebutton"
+        android:gravity="center"
+        android:text="Transfer Money"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</RelativeLayout>
