@@ -26,6 +26,7 @@ This is a simple Android application with a beautiful UI that showcases basic fu
 <img src="https://github.com/govindraj-7c/GRIP/assets/126868326/faac0d1b-6668-4807-8f32-5a3cdb7ee4be" alt="Screenshot" width="150"/>
 
 
+## Video Demonstration
 
 https://github.com/govindraj-7c/GRIP/assets/126868326/2cefe879-7bc5-4c21-930e-94cf4fafa71c
 
