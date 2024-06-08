@@ -21,8 +21,9 @@ This is a simple Android application with a beautiful UI that showcases basic fu
 
 ## Screenshot
 
-<img src="https://github.com/govindraj-7c/GRIP/assets/126868326/9cafce44-d237-400f-824a-5cf6ef369449" alt="Screenshot" width="200"/>
-<img src="https://github.com/govindraj-7c/GRIP/assets/126868326/5e1db212-d695-498a-9990-3ceca5203449" alt="Screenshot" width="200"/>
+<img src="https://github.com/govindraj-7c/GRIP/assets/126868326/9cafce44-d237-400f-824a-5cf6ef369449" alt="Screenshot" width="150"/>
+<img src="https://github.com/govindraj-7c/GRIP/assets/126868326/5e1db212-d695-498a-9990-3ceca5203449" alt="Screenshot" width="150"/>
+<img src="https://github.com/govindraj-7c/GRIP/assets/126868326/faac0d1b-6668-4807-8f32-5a3cdb7ee4be" alt="Screenshot" width="150"/>
 
 
 
